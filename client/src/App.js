@@ -1,5 +1,9 @@
-import './App.css';
+import './App.scss';
 import React from 'react';
+import RouteApp from "./Routing";
+import { Switch, useHistory, useLocation } from "react-router-dom";
+import Home from './components/screens/home/Home';
+
 function App() {
   const [data, setData] = React.useState(null);
 
@@ -10,9 +14,10 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <h3>
-          The  and data is  from server {data}
-        </h3>
+   <Switch>
+          <RouteApp path={"/schedule"} component={Home} />
+          <RouteApp path={"/"} component={Home} />
+        </Switch>
     </div>
   );
 }
