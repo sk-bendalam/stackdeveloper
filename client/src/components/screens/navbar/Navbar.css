@@ -1,0 +1,82 @@
+.bg-color{
+    background-color: rgb(2, 36, 37)
+}
+.height{
+    height: 900px;
+    background-color: black;
+   
+}
+.menuw{
+   width:450px;
+}
+.menum{
+    margin-left:100px;
+ }
+.text-w{
+    color: white;
+}
+
+.height1{
+    height: 550px;
+}
+.width1{
+    width: 1450px;
+}
+.height2{
+    height: 110px;
+}
+.width2{
+    width: 450px;
+}
+.h-icon{
+    font-size: 48px; 
+}
+.display{
+  font-size: 17px;
+  }
+  .button {
+    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .image{
+  padding: 15px 70px;
+  margin-right: 10px;
+  height: 1000px;
+  width: 1400px;
+  filter: brightness(40%);
+  -webkit-filter: brightness(40%);
+}
+.image-container{
+    padding: 10px 25px;
+    height: 1000px;
+    width: 1450px;
+ }
+ pre{
+     font-size:20px;
+ }
+  .d{
+      font-size:100px;
+      color: white;
+  }
+  div.d {
+    line-height: 2.9cm;
+    font-weight: 500;
+  }
+  
+.text{
+    position: absolute;
+    top: 320px;
+    right: 400px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 70px;  
+}
+
+
+
